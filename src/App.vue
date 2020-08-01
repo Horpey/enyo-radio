@@ -3,7 +3,7 @@
     <main>
       <img src="./assets/logo.png" height="120" alt="Enyo Station" style="margin-bottom: 30px" />
       <div class>
-        <embed src="https://s4.radio.co/s48426d56a/listen" width="300" height="200" />
+        <embed :src="radioUrl" width="300" height="200" />
       </div>
       <!-- <router-view></router-view> -->
     </main>
@@ -15,7 +15,7 @@ export default {
   name: "app",
   data() {
     return {
-      radioUrl: "https://s4.radio.co/s48426d56a/listen"
+      radioUrl: "https://s4.radio.co/sbd5d1c7a1/listen"
     };
   },
   methods: {
