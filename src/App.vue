@@ -1,7 +1,12 @@
 <template>
   <div id="app">
     <main>
-      <img src="./assets/logo.png" height="120" alt="Enyo Station" style="margin-bottom: 30px" />
+      <img
+        src="./assets/circlemall.jpg"
+        height="120"
+        alt="Enyo Station"
+        style="margin-bottom: 30px"
+      />
       <div class>
         <embed :src="radioUrl" width="300" height="200" />
       </div>
@@ -15,7 +20,8 @@ export default {
   name: "app",
   data() {
     return {
-      radioUrl: "https://s4.radio.co/sbd5d1c7a1/listen"
+      // Enyo URL -> https://s4.radio.co/sbd5d1c7a1/listen
+      radioUrl: "https://s4.radio.co/s48426d56a/listen",
     };
   },
   methods: {
@@ -38,7 +44,7 @@ export default {
     //   sound.play();
     // }
   },
-  mounted: function() {
+  mounted: function () {
     // this.playSound();
     // var sound = new Howl({
     //   src: "https://s4.radio.co/s48426d56a/listen",
@@ -49,7 +55,7 @@ export default {
     //     console.log("Finished!");
     //   }
     // });
-  }
+  },
 };
 </script>
 
