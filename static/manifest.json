@@ -1,6 +1,6 @@
 {
-  "name": "circlemall-radio",
-  "short_name": "circlemall-radio",
+  "name": "filmhouse-radio",
+  "short_name": "filmhouse-radio",
   "icons": [
     {
       "src": "/static/img/icons/android-chrome-192x192.png",

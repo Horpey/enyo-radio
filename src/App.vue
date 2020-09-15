@@ -1,12 +1,7 @@
 <template>
   <div id="app">
     <main>
-      <img
-        src="./assets/circlemall.jpg"
-        height="120"
-        alt="Enyo Station"
-        style="margin-bottom: 30px"
-      />
+      <img src="./assets/filmhouse.png" height="120" alt="Enyo Station" style="margin-bottom: 30px" />
       <div class>
         <embed :src="radioUrl" width="300" height="200" />
       </div>
@@ -21,7 +16,8 @@ export default {
   data() {
     return {
       // Enyo URL -> https://s4.radio.co/sbd5d1c7a1/listen
-      radioUrl: "https://s4.radio.co/s48426d56a/listen",
+      // CirclMal -> https://s4.radio.co/s48426d56a/listen
+      radioUrl: " https://s3.radio.co/sc8b5cc2e1/listen",
     };
   },
   methods: {
